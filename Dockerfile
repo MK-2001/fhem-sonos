@@ -56,4 +56,4 @@ EXPOSE 4711
 
 
 # START COMMAND
-CMD "perl /opt/fhem/FHEM/00_SONOS.pm 4711 1 1"
+CMD /usr/bin/perl /opt/fhem/FHEM/00_SONOS.pm 4711 1 1
